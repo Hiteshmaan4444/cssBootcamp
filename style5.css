@@ -8,7 +8,7 @@ body {
 }
 
 .card {
-  width: 310px;
+  width: 250px;
   margin: 10px auto;
   border: 1px solid lightgray;
   border-radius: 10px;
@@ -16,7 +16,7 @@ body {
 }
 
 .card-img {
-  width: calc(310px - 20px);
+  width: calc(100% - 20px);
   margin: 10px auto;
   margin-bottom: 0;
   position: relative;
@@ -79,6 +79,7 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   height: 50px;
+  border-top: 1px solid lightgray;
   margin-top: 20px;
 }
 
